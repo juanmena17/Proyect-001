@@ -112,8 +112,22 @@ input:focus {
   cursor: pointer;
 }
 
+.signup-action:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
 .signup-action span {
   color: #9aa1af;
   font-size: 14px;
   line-height: 1;
+}
+
+.form-message {
+  margin: -2px 0 0;
+  color: #9ca3af;
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
 }

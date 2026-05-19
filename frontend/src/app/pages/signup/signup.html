@@ -2,15 +2,29 @@
   <section class="signup-panel" aria-labelledby="signup-title">
     <h1 id="signup-title">Sign up</h1>
 
-    <form class="signup-form">
-      <input type="email" placeholder="Email address" aria-label="Email address" />
-      <input type="text" placeholder="Username" aria-label="Username" />
+    <form class="signup-form" (ngSubmit)="submitSignup()">
+      <input
+        type="email"
+        name="email"
+        placeholder="Email address"
+        aria-label="Email address"
+        [(ngModel)]="email"
+      />
+      <input
+        type="text"
+        name="user"
+        placeholder="Username"
+        aria-label="Username"
+        [(ngModel)]="user"
+      />
 
       <div class="password-field">
         <input
+          name="password"
           [type]="showPassword ? 'text' : 'password'"
           placeholder="Password"
           aria-label="Password"
+          [(ngModel)]="password"
         />
         <button
           type="button"
@@ -27,9 +41,11 @@
 
       <div class="password-field">
         <input
+          name="repeatPassword"
           [type]="showRepeatPassword ? 'text' : 'password'"
           placeholder="Repeat Password"
           aria-label="Repeat Password"
+          [(ngModel)]="repeatPassword"
         />
         <button
           type="button"
@@ -44,7 +60,17 @@
         </button>
       </div>
 
-      <button type="button" class="signup-action">
+      @if (submitted && !hasValidPassword) {
+        <p class="form-message">La contraseña no cumple los requisitos.</p>
+      }
+      @if (submitted && hasValidPassword && !passwordsMatch) {
+        <p class="form-message">Las contraseñas no coinciden.</p>
+      }
+      @if (statusMessage) {
+        <p class="form-message">{{ statusMessage }}</p>
+      }
+
+      <button type="submit" class="signup-action" [disabled]="!canSubmit">
         <span aria-hidden="true">✓</span>
         SIGN UP
       </button>
