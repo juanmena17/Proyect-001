@@ -1,0 +1,48 @@
+<main class="analytics-shell">
+  <section class="login-stage" aria-labelledby="page-title">
+    <div class="login-stack">
+      <h1 id="page-title">Analitys</h1>
+
+      <div class="login-card-frame">
+        <article class="login-card" aria-label="Login panel">
+          <header class="card-header">
+            <div>
+              <h2>Login to your account</h2>
+              <p>Enter your email below to login to your account</p>
+            </div>
+            <a routerLink="/signup" aria-label="Create an account">Sign Up</a>
+          </header>
+
+          <form class="card-content">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="m@example.com" />
+
+            <div class="password-row">
+              <label for="password">Password</label>
+              <a href="#">Forgot your password?</a>
+            </div>
+            <div class="password-field">
+              <input id="password" [type]="showPassword ? 'text' : 'password'" />
+              <button
+                type="button"
+                class="password-toggle"
+                [attr.aria-label]="showPassword ? 'Hide password' : 'Show password'"
+                (click)="togglePassword()"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M2.1 12s3.4-6 9.9-6 9.9 6 9.9 6-3.4 6-9.9 6-9.9-6-9.9-6Z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+              </button>
+            </div>
+          </form>
+
+          <footer class="card-footer">
+            <button type="button" class="primary-action">Login</button>
+            <button type="button" class="secondary-action">Login with Google</button>
+          </footer>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>

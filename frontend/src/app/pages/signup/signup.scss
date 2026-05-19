@@ -1,0 +1,119 @@
+:host {
+  display: block;
+  width: 100dvh;
+  height: 100dvh;
+  margin: 0 auto;
+}
+
+.signup-shell {
+  width: 100dvh;
+  height: 100dvh;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.signup-panel {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+h1 {
+  margin: 0 0 44px;
+  color: #050505;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.signup-form {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  transform: scale(1.8);
+  transform-origin: top center;
+}
+
+input {
+  width: 100%;
+  height: 24px;
+  border: 0;
+  border-bottom: 1px solid #eff1f5;
+  border-radius: 0;
+  padding: 0 4px;
+  color: #111827;
+  font: inherit;
+  font-size: 12px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #b7bcc6;
+  font-weight: 600;
+}
+
+input:focus {
+  border-bottom-color: #9ca3af;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field input {
+  padding-right: 28px;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #9ca3af;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.password-toggle svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.signup-action {
+  width: 160px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 22px;
+  border: 0;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #7d8494;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  box-shadow: 0 8px 18px rgb(15 23 42 / 12%);
+  cursor: pointer;
+}
+
+.signup-action span {
+  color: #9aa1af;
+  font-size: 14px;
+  line-height: 1;
+}

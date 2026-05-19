@@ -1,0 +1,53 @@
+<main class="signup-shell">
+  <section class="signup-panel" aria-labelledby="signup-title">
+    <h1 id="signup-title">Sign up</h1>
+
+    <form class="signup-form">
+      <input type="email" placeholder="Email address" aria-label="Email address" />
+      <input type="text" placeholder="Username" aria-label="Username" />
+
+      <div class="password-field">
+        <input
+          [type]="showPassword ? 'text' : 'password'"
+          placeholder="Password"
+          aria-label="Password"
+        />
+        <button
+          type="button"
+          class="password-toggle"
+          [attr.aria-label]="showPassword ? 'Hide password' : 'Show password'"
+          (click)="togglePassword()"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2.1 12s3.4-6 9.9-6 9.9 6 9.9 6-3.4 6-9.9 6-9.9-6-9.9-6Z" />
+            <circle cx="12" cy="12" r="3" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="password-field">
+        <input
+          [type]="showRepeatPassword ? 'text' : 'password'"
+          placeholder="Repeat Password"
+          aria-label="Repeat Password"
+        />
+        <button
+          type="button"
+          class="password-toggle"
+          [attr.aria-label]="showRepeatPassword ? 'Hide repeated password' : 'Show repeated password'"
+          (click)="toggleRepeatPassword()"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2.1 12s3.4-6 9.9-6 9.9 6 9.9 6-3.4 6-9.9 6-9.9-6-9.9-6Z" />
+            <circle cx="12" cy="12" r="3" />
+          </svg>
+        </button>
+      </div>
+
+      <button type="button" class="signup-action">
+        <span aria-hidden="true">✓</span>
+        SIGN UP
+      </button>
+    </form>
+  </section>
+</main>
