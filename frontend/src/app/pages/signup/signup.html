@@ -72,7 +72,7 @@
 
       <button type="submit" class="signup-action" [disabled]="!canSubmit">
         <span aria-hidden="true">✓</span>
-        SIGN UP
+        {{ isSubmitting ? 'SENDING' : 'SIGN UP' }}
       </button>
     </form>
   </section>
