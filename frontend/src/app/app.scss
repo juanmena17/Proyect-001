@@ -37,6 +37,8 @@ h1 {
   border-radius: 8px;
   background: #ffffff;
   box-shadow: 0 8px 24px rgb(15 23 42 / 8%);
+  transform: scale(2);
+  transform-origin: top center;
 }
 
 .card-header,
