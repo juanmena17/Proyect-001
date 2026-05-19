@@ -95,3 +95,46 @@ Component update sent to client(s).
 Application bundle generation complete. [0.132 seconds] - 2026-05-19T01:37:01.329Z
 
 Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.155 seconds] - 2026-05-19T02:00:55.874Z
+
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+Application bundle generation failed. [0.156 seconds] - 2026-05-19T02:01:05.077Z
+
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m        [2m | [22m [1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m         [2m | [22m [36m13.93 kB[39m[2m | [22m
+[32mstyles.css[39m         [2m | [22m[2mstyles[22m       [2m | [22m[36m226 bytes[39m[2m | [22m
+
+[1m [22m                  [2m | [22m[1mInitial total[22m[2m | [22m [1m14.15 kB[22m
+
+Application bundle generation complete. [0.113 seconds] - 2026-05-19T02:01:08.115Z
+
+Page reload sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m [2m | [22m[36m13.93 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.116 seconds] - 2026-05-19T02:02:08.866Z
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m [2m | [22m[36m13.98 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.111 seconds] - 2026-05-19T02:02:47.091Z
+
+Component update sent to client(s).
+[33m>[39m Changes detected. Rebuilding...
+[32m√[39m Changes detected. Rebuilding...
+[1mInitial chunk files[22m[2m | [22m[1mNames[22m[2m | [22m[1mRaw size[22m
+[32mmain.js[39m            [2m | [22m[2mmain[22m [2m | [22m[36m14.02 kB[39m[2m | [22m
+
+Application bundle generation complete. [0.108 seconds] - 2026-05-19T02:05:26.595Z
+
+Component update sent to client(s).

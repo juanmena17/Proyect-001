@@ -33,3 +33,81 @@
         ╵                [32m~~~~~~~~~~~~[0m
 
 [39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'showPassword' does not exist on type 'App'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.html:25:43:
+[37m      25 │ ...input id="password" [type]="[32mshowPassword[37m ? 'text' : 'password'" />
+         ╵                                [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component App.
+
+    src/app/app.ts:5:15:
+[37m      5 │   templateUrl: [32m'./app.html'[37m,
+        ╵                [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'showPassword' does not exist on type 'App'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.html:29:35:
+[37m      29 │ ...       [attr.aria-label]="[32mshowPassword[37m ? 'Hide password' : 'Sho...
+         ╵                              [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component App.
+
+    src/app/app.ts:5:15:
+[37m      5 │   templateUrl: [32m'./app.html'[37m,
+        ╵                [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'togglePassword' does not exist on type 'App'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.html:30:25:
+[37m      30 │                 (click)="[32mtogglePassword[37m()"
+         ╵                          [32m~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component App.
+
+    src/app/app.ts:5:15:
+[37m      5 │   templateUrl: [32m'./app.html'[37m,
+        ╵                [32m~~~~~~~~~~~~[0m
+
+[39m[22m
+[1m[31m[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'showPassword' does not exist on type 'App'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.html:25:43:
+[37m      25 │ ...input id="password" [type]="[32mshowPassword[37m ? 'text' : 'password'" />
+         ╵                                [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component App.
+
+    src/app/app.ts:5:15:
+[37m      5 │   templateUrl: [32m'./app.html'[37m,
+        ╵                [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'showPassword' does not exist on type 'App'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.html:29:35:
+[37m      29 │ ...       [attr.aria-label]="[32mshowPassword[37m ? 'Hide password' : 'Sho...
+         ╵                              [32m~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component App.
+
+    src/app/app.ts:5:15:
+[37m      5 │   templateUrl: [32m'./app.html'[37m,
+        ╵                [32m~~~~~~~~~~~~[0m
+
+
+[31mX [41;31m[[41;97mERROR[41;31m][0m [1mTS2339: Property 'togglePassword' does not exist on type 'App'.[0m [1m[35m[plugin angular-compiler][0m
+
+    src/app/app.html:30:25:
+[37m      30 │                 (click)="[32mtogglePassword[37m()"
+         ╵                          [32m~~~~~~~~~~~~~~[0m
+
+  Error occurs in the template of component App.
+
+    src/app/app.ts:5:15:
+[37m      5 │   templateUrl: [32m'./app.html'[37m,
+        ╵                [32m~~~~~~~~~~~~[0m
+
+[39m[22m
