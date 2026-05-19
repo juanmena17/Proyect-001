@@ -3,9 +3,9 @@ import { HttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 
 type SignupPayload = {
+  username: string;
   email: string;
-  user: string;
-  pass: string;
+  password: string;
 };
 
 const USERS_ENDPOINT = 'http://3.227.197.69:8000/usuarios';
@@ -73,9 +73,9 @@ export class SignupComponent {
     }
 
     const payload: SignupPayload = {
+      username: this.user,
       email: this.email,
-      user: this.user,
-      pass: this.password,
+      password: this.password,
     };
 
     this.isSubmitting = true;
